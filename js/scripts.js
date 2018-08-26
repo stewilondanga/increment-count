@@ -6,3 +6,15 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+console.log("hi");
+
+var x = 0;
+console.log(x);
+
+document.getElementById("output").innerHTML = x;
+
+function incrementCount() {
+  x++;
+  document.getElementById("output").innerHTML = x;
+}
